@@ -1003,12 +1003,19 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
         text-align: center;
         padding-left: 30px;
         padding-right: 30px;
+        position: relative;
     }
     
     nav.navbar.bootsnav .navbar-toggle {
         display: inline-block;
-        float: left;
-        margin-right: -200px;
+        float: none;
+        position: absolute;
+        right: 15px;
+            /* Add this line to move it to the right */
+        top: 10px;
+            /* Adjust this value to control vertical positioning */
+        margin-right: 0;
+            /* Reset the margin-right */
         margin-top: 10px;
     }
     
@@ -1299,8 +1306,8 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
     }
     
     body.side-right > .wrapper{
-        margin-left: 200px;
-        margin-right: -200px !important;
+        margin-left: 280px;
+        margin-right: -280px !important;
     }
     
     nav.navbar.bootsnav.navbar-mobile .navbar-collapse{
@@ -1310,9 +1317,9 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
         display: block;
         background: #fff;
         z-index: 99;
-        width: 200px;
+        width: 280px;
         height: 100% !important;
-        left: -200px;
+        left: -280px;
         top: 0;
         padding: 0;
         -webkit-transition: all 0.3s ease-in-out;
@@ -1327,7 +1334,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
     }
     
     nav.navbar.bootsnav.navbar-mobile ul.nav{
-        width: 200px;
+        width: 280px;
         padding-right: 0;
         padding-left: 15px;
     }
