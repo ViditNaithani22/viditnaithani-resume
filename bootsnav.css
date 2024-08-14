@@ -1299,8 +1299,8 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
     }
     
     body.side-right > .wrapper{
-        margin-left: 280px;
-        margin-right: -280px !important;
+        margin-left: 200px;
+        margin-right: -200px !important;
     }
     
     nav.navbar.bootsnav.navbar-mobile .navbar-collapse{
@@ -1310,9 +1310,9 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
         display: block;
         background: #fff;
         z-index: 99;
-        width: 280px;
+        width: 200px;
         height: 100% !important;
-        left: -280px;
+        left: -200px;
         top: 0;
         padding: 0;
         -webkit-transition: all 0.3s ease-in-out;
@@ -1327,7 +1327,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
     }
     
     nav.navbar.bootsnav.navbar-mobile ul.nav{
-        width: 280px;
+        width: 200px;
         padding-right: 0;
         padding-left: 15px;
     }
