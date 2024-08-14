@@ -1310,9 +1310,9 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
         display: block;
         background: #fff;
         z-index: 99;
-        width: 280px;
+        width: 220px;
         height: 100% !important;
-        left: -280px;
+        left: -220px;
         top: 0;
         padding: 0;
         -webkit-transition: all 0.3s ease-in-out;
