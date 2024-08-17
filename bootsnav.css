@@ -357,7 +357,6 @@ body{
 	-o-transition: all 0.3s ease-in-out;
 	-ms-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
-    height: 100%;
 }
 
 body.on-side{
@@ -1297,16 +1296,11 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
         -o-transition: all 0.3s ease-in-out;
         -ms-transition: all 0.3s ease-in-out;
         transition: all 0.3s ease-in-out;
-        min-height: 100vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
     }
     
     body.side-right > .wrapper{
         margin-left: 280px;
-        margin-right: 0;
-        min-height: 100vh;
+        margin-right: -280px !important;
     }
     
     nav.navbar.bootsnav.navbar-mobile .navbar-collapse{
@@ -1315,33 +1309,17 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
         overflow-x: hidden !important;
         display: block;
         background: #fff;
-        
+        z-index: 99;
         width: 280px;
-        height: auto !important;
-        left: -280px;
+        height: 100% !important;
+        left: 0;
         top: 0;
         padding: 0;
         -webkit-transition: all 0.3s ease-in-out;
         -moz-transition: all 0.3s ease-in-out;
         -o-transition: all 0.3s ease-in-out;
         -ms-transition: all 0.3s ease-in-out;
-        
-       
-
-        
-            /* Allow the height to adapt */
-        max-height: 100vh;
-            /* Ensure it doesn't exceed the viewport height */
-            
-            /* Enable scrolling */
-            
-            
-            
-            
-            
-        z-index: 99;
         transition: all 0.3s ease-in-out;
-
     }
     
     nav.navbar.bootsnav.navbar-mobile .navbar-collapse.in{
@@ -1349,7 +1327,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
     }
     
     nav.navbar.bootsnav.navbar-mobile ul.nav{
-        width: 280;
+        width: 293px;
         padding-right: 0;
         padding-left: 15px;
     }
@@ -1466,14 +1444,11 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
     =================================*/ 
     body.side-right > .wrapper{
         margin-left: 280px;
-        margin-right: 0;
-        min-height: 100vh;
-        
+        margin-right: -280px !important;
     }
     
     nav.navbar.bootsnav.navbar-mobile .navbar-collapse{
         margin-left: 0;
-        min-height: 100vh;
     }
     
     nav.navbar.bootsnav.navbar-mobile ul.nav{
