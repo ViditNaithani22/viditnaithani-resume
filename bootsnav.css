@@ -357,6 +357,7 @@ body{
 	-o-transition: all 0.3s ease-in-out;
 	-ms-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
+    height: 100%;
 }
 
 body.on-side{
@@ -1296,11 +1297,12 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
         -o-transition: all 0.3s ease-in-out;
         -ms-transition: all 0.3s ease-in-out;
         transition: all 0.3s ease-in-out;
+        min-height: 100vh;
     }
     
     body.side-right > .wrapper{
         margin-left: 280px;
-        margin-right: -280px !important;
+        margin-right: 0 !important;
     }
     
     nav.navbar.bootsnav.navbar-mobile .navbar-collapse{
@@ -1311,7 +1313,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
         background: #fff;
         z-index: 99;
         width: 280px;
-        height: 100% !important;
+        height: auto !important;
         left: -280px;
         top: 0;
         padding: 0;
@@ -1320,6 +1322,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
         -o-transition: all 0.3s ease-in-out;
         -ms-transition: all 0.3s ease-in-out;
         transition: all 0.3s ease-in-out;
+        min-height: 100%;
     }
     
     nav.navbar.bootsnav.navbar-mobile .navbar-collapse.in{
@@ -1444,11 +1447,12 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
     =================================*/ 
     body.side-right > .wrapper{
         margin-left: 280px;
-        margin-right: -280px !important;
+        margin-right: 0 !important;
     }
     
     nav.navbar.bootsnav.navbar-mobile .navbar-collapse{
         margin-left: 0;
+        min-height: 100vh;
     }
     
     nav.navbar.bootsnav.navbar-mobile ul.nav{
