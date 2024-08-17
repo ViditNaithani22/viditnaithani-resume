@@ -1003,19 +1003,12 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
         text-align: center;
         padding-left: 30px;
         padding-right: 30px;
-        position: relative;
     }
     
     nav.navbar.bootsnav .navbar-toggle {
         display: inline-block;
-        float: none;
-        position: absolute;
-        right: 15px;
-            /* Add this line to move it to the right */
-        top: 10px;
-            /* Adjust this value to control vertical positioning */
-        margin-right: 0;
-            /* Reset the margin-right */
+        float: left;
+        margin-right: -200px;
         margin-top: 10px;
     }
     
@@ -1334,7 +1327,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
     }
     
     nav.navbar.bootsnav.navbar-mobile ul.nav{
-        width: 280px;
+        width: 293px;
         padding-right: 0;
         padding-left: 15px;
     }
@@ -1361,7 +1354,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
     }
     
     nav.navbar.bootsnav.navbar-mobile .navbar-collapse [class*=' col-'] {
-        width: 50%;
+        width: 100%;
     }
     
     nav.navbar.bootsnav.navbar-fixed .logo-scrolled{
