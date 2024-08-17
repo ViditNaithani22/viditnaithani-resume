@@ -1290,16 +1290,12 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
     
     /* Mobile Navigation
     =================================*/     
-    * {
-            box-sizing: border-box;
-        }
     body > .wrapper{
         -webkit-transition: all 0.3s ease-in-out;
         -moz-transition: all 0.3s ease-in-out;
         -o-transition: all 0.3s ease-in-out;
         -ms-transition: all 0.3s ease-in-out;
         transition: all 0.3s ease-in-out;
-        height: 100vh;
     }
     
     body.side-right > .wrapper{
@@ -1331,33 +1327,30 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
     }
     
     nav.navbar.bootsnav.navbar-mobile ul.nav{
-        width: 280px;
-        margin: 0;
-        padding: 0;
+        width: 293px;
+        padding-right: 0;
+        padding-left: 15px;
     }
     
     nav.navbar.bootsnav.navbar-mobile ul.nav > li > a{
-        padding: 0;
+        padding: 15px 15px;
     }
     
     nav.navbar.bootsnav.navbar-mobile ul.nav ul.dropdown-menu > li > a{
-        /* padding-right: 15px !important;
+        padding-right: 15px !important;
         padding-top: 15px !important;
-        padding-bottom: 15px !important; */
-        padding: 0;
+        padding-bottom: 15px !important;
     }
     
     nav.navbar.bootsnav.navbar-mobile ul.nav ul.dropdown-menu .col-menu .title{
-        /* padding-right: 30px !important;
+        padding-right: 30px !important;
         padding-top: 13px !important;
-        padding-bottom: 13px !important; */
-        padding: 0;
+        padding-bottom: 13px !important;
     }
     
     nav.navbar.bootsnav.navbar-mobile ul.nav ul.dropdown-menu .col-menu ul.menu-col li a{
-        /* padding-top: 13px !important;
-        padding-bottom: 13px !important; */
-        padding: 0;
+        padding-top: 13px !important;
+        padding-bottom: 13px !important;
     }
     
     nav.navbar.bootsnav.navbar-mobile .navbar-collapse [class*=' col-'] {
