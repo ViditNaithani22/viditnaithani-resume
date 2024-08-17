@@ -145,6 +145,10 @@
                 });
             }
             
+            if (window.innerHeight > document.body.scrollHeight) {
+                     document.body.style.minHeight = window.innerHeight + 'px';
+            }
+
             // ------------------------------------------------------------------------------ //
             // Navbar Fixed
             // ------------------------------------------------------------------------------ //
