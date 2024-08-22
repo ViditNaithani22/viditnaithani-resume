@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Modern Business - Start Bootstrap Template</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Custom Google font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body class="d-flex flex-column h-100 bg-light">
+        <main class="flex-shrink-0">
+            <!-- Navigation-->
+            <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
+                <div class="container px-5">
+                    <a class="navbar-brand" href="index.html"><span class="fw-bolder text-primary">Naithani</span></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
+                            
+                            <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
+                            <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            
+
+            <!-- Projects Section-->
+            <section class="py-5">
+                <div class="container px-5 mb-5">
+                    <div class="text-center mb-5">
+                        <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Projects</span></h1>
+                    </div>
+                    <div class="row gx-5 justify-content-center">
+                        <div class="col-lg-11 col-xl-9 col-xxl-8">
+                            <!-- Project Card 1-->
+                            <div class="card overflow-visible shadow rounded-4 border-0 mb-5">
+                                <div class="card-body p-0">
+                                    <div class="d-flex align-items-center">
+                                        <div class="p-4">
+                                            <h4 class="fw-bolder text-container">Uniview (SWEN614 Group Project)</h4>
+                                            <ul class="table-responsive-sm text-container mb-2"> 
+                                                <li>Uniview gives you a summary of google maps reviews for a particular university that you are interested in.</li>
+                                                <li>Utilizes AWS Lambda to fetch and filter 1,500 reviews from the google maps profile of 100 different universities.</li>
+                                                <li>Performs sentiment analysis on each review using AWS Comprehend and uses AWS Personalize to recommend 5 similar universities for each university.</li>
+                                                <li>Implements TF-IDF NLP algorithm to extract 10 most common words from positive and negative reviews.</li>
+                                                <li>The entire project was built on Terraform. Other services used: EC2, Amplify, S3, Cloudwatch, DynamoDB.</li>
+                                            </ul>
+
+                                            <p class="mb-3 text-container">github repo: <a
+                                                    href="https://github.com/ViditNaithani22/Uniview-terraform">https://github.com/ViditNaithani22/Uniview-terraform</a>
+                                            </p>
+                                            <p class="text-container">Website link: <a href="https://main.d1s8gvn9k7g54q.amplifyapp.com">https://main.d1s8gvn9k7g54q.amplifyapp.com</a></p>
+                                        </div>
+                                        <!-- pc view -->
+                                        <a href="https://main.d1s8gvn9k7g54q.amplifyapp.com"><img class="img-fluid d-none d-md-block" src="assets/uniview.png" alt="..." /></a>
+                                    </div>
+                                    <!-- mobile view -->
+                                    <div class="text-center d-block d-md-none">
+                                        <a href="https://main.d1s8gvn9k7g54q.amplifyapp.com"><img class="img-fluid" src="assets/uniview.png" alt="..." /></a>
+                                    </div>
+                                </div>
+                            </div>
+            
+                            <!-- Project Card 2-->
+                            <div class="card overflow-visible shadow rounded-4 border-0 mb-5">
+                                <div class="card-body p-0">
+                                    <div class="d-flex align-items-center">
+                                        <div class="p-4">
+                                            <h4 class="fw-bolder text-container">CUP+HebCUP (CSCI635 Group Project)</h4>
+                                            <ul class="table-responsive-sm text-container mb-2">
+                                                <li>CUP is a Seq2Seq model and HebCUP is a heuristic-based approach, both are used to update outdated comments.</li>
+                                                <li>We divided 1,063K code-comment pairs between CUP and HebCUP labels based on the NCSM scores.</li>
+                                                <li>We aim to update each code-comment pair based on its label and compare our performance with using either CUP or
+                                                HebCUP alone on the entire dataset.</li>
+                                                <li>Imp. Libraries used: tensorflow, numpy, keras, pytorch, cudatoolkit, cudnn, scikit-learn, scipy</li>
+                                            </ul>
+                            
+                                            <p class="mb-3 text-container">github repo: <a
+                                                    href="https://github.com/ViditNaithani22/CUP-HebCUP-combined-Approach">https://github.com/ViditNaithani22/CUP-HebCUP-combined-Approach</a>
+                                            </p>
+                        
+                                        </div>
+                                        <!-- pc view -->
+                                        <a href="https://github.com/ViditNaithani22/CUP-HebCUP-combined-Approach"><img class="img-fluid d-none d-md-block"
+                                                src="assets/cup-hebcup.png" alt="..." /></a>
+                                    </div>
+                                    <!-- mobile view -->
+                                    <div class="text-center d-block d-md-none">
+                                        <a href="https://github.com/ViditNaithani22/CUP-HebCUP-combined-Approach"><img class="img-fluid" src="assets/cup-hebcup.png"
+                                                alt="..." /></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+        </main>
+        <!-- Footer-->
+        <footer class="bg-white py-4 mt-auto">
+            <div class="container px-5">
+                <div class="row align-items-center justify-content-center flex-column flex-sm-row">
+                    <div class="col-auto">
+                        <div class="small m-0">Copyright &copy; ViditNaithani 2024</div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
