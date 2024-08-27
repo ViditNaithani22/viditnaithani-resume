@@ -1,5 +1,7 @@
 # Hosting Vidit Naithani Portfolio Website 
 
+### Website Link: www.viditnaithani.com
+
 ### -> Hosting a static website on AWS S3 bucket without making it public, is a simple but very important concept to know as this is a very common demand from businesses.
 ### -> In this project we put the website front-end files on an S3 bucket, and then created an AWS Cloudfront network and gave it access to the bucket's contents.
 ### -> With the help of the cloudfront URL anyone can access the website even though the S3 bucket is private, but we also want URL to have our name as it is our website.
