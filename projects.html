@@ -49,31 +49,110 @@
                                 <div class="card-body p-0">
                                     <div class="d-flex align-items-center">
                                         <div class="p-4">
-                                            <h4 class="fw-bolder text-container">Uniview (SWEN614 Group Project)</h4>
+                                            <h4 class="fw-bolder text-container"> Hosting my Portfolio Website</h4>
                                             <ul class="table-responsive-sm text-container mb-2"> 
-                                                <li>Uniview gives you a summary of google maps reviews for a particular university that you are interested in.</li>
-                                                <li>Utilizes AWS Lambda to fetch and filter 1,500 reviews from the google maps profile of 100 different universities.</li>
-                                                <li>Performs sentiment analysis on each review using AWS Comprehend and uses AWS Personalize to recommend 5 similar universities for each university.</li>
-                                                <li>Implements TF-IDF NLP algorithm to extract 10 most common words from positive and negative reviews.</li>
-                                                <li>The entire project was built on Terraform. Other services used: EC2, Amplify, S3, Cloudwatch, DynamoDB.</li>
+                                                <li>Hosting a static website on AWS S3 bucket without making it public.</li>
+                                                <li>Saved all the front-end files on an S3 bucket, and then created an AWS Cloudfront network and gave it access to the bucket's
+                                                contents.</li>
+                                                <li>Purchased a URL from AWS Route53, got a certificate for it from AWS Certificate Manager</li>
+                                                <li>Attatched that certificate and the URL to the cloudfront network.</li>
+                                                <li>Built a CI/CD pipeline using Github Actions, as it will make it easier to make any changes in the website.</li>
                                             </ul>
 
                                             <p class="mb-3 text-container">github repo: <a
-                                                    href="https://github.com/ViditNaithani22/Uniview-terraform">https://github.com/ViditNaithani22/Uniview-terraform</a>
+                                                    href="https://github.com/ViditNaithani22/viditnaithani-resume">https://github.com/ViditNaithani22/viditnaithani-resume</a>
                                             </p>
-                                            <p class="text-container">Website link: <a href="https://main.d1s8gvn9k7g54q.amplifyapp.com">https://main.d1s8gvn9k7g54q.amplifyapp.com</a></p>
+                                            <p class="text-container">Website link: <a href="https://www.viditnaithani.com">https://www.viditnaithani.com</a></p>
                                         </div>
                                         <!-- pc view -->
-                                        <a href="https://main.d1s8gvn9k7g54q.amplifyapp.com"><img class="img-fluid d-none d-md-block" src="assets/uniview.png" alt="..." /></a>
+                                        <a href="https://www.viditnaithani.com"><img class="img-fluid d-none d-md-block" src="https://d1tcczg8b21j1t.cloudfront.net/strapi-assets/large_s3_diagram_cloudfront_acm_route53_c2a411d6a4.png" alt="..." /></a>
                                     </div>
                                     <!-- mobile view -->
                                     <div class="text-center d-block d-md-none">
-                                        <a href="https://main.d1s8gvn9k7g54q.amplifyapp.com"><img class="img-fluid" src="assets/uniview.png" alt="..." /></a>
+                                        <a href="https://www.viditnaithani.com"><img class="img-fluid" src="https://d1tcczg8b21j1t.cloudfront.net/strapi-assets/large_s3_diagram_cloudfront_acm_route53_c2a411d6a4.png" alt="..." /></a>
                                     </div>
                                 </div>
                             </div>
-            
+
+
                             <!-- Project Card 2-->
+                            <div class="card overflow-visible shadow rounded-4 border-0 mb-5">
+                                <div class="card-body p-0">
+                                    <div class="d-flex align-items-center">
+                                        <div class="p-4">
+                                            <h4 class="fw-bolder text-container">ExploreCamps</h4>
+                                            <ul class="table-responsive-sm text-container mb-2">
+                                                <li>A full-stack website to review campgrounds created by others all over the world and add your own campgrounds for others to review.</li>
+                                                <li>Front-end created using HTML, EJS, CSS, and Bootstrap 5.</li>
+                                                <li>The database used is MongoDB Atlas to store campgrounds, users, reviews and sessions.</li>
+                                                <li>Node.js and Express.js are used for server side application.</li>
+                                                <li>For user authentication Passport.js is used.</li>
+                                                <li>For the authentication of the data entered by the user Joi Schemas are used.</li>
+                                                <li>All images are uploaded to Cloudinary via Multer.</li>
+                                                <li>All the maps are taken from MapBox API.</li>
+                                            </ul>
+                            
+                                            <p class="mb-3 text-container">github repo: <a
+                                                    href="https://github.com/ViditNaithani22/ExploreCamps">https://github.com/ViditNaithani22/ExploreCamps</a>
+                                            </p>
+                                            <p class="text-container">Website link: <a
+                                                    href="https://explorecamps.onrender.com/">https://explorecamps.onrender.com/</a>
+                                            </p>
+                                        </div>
+                                        <!-- pc view -->
+                                        <a href="https://explorecamps.onrender.com"><img class="img-fluid d-none d-md-block"
+                                                src="https://images.unsplash.com/photo-1510312305653-8ed496efae75?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="..." /></a>
+                                    </div>
+                                    <!-- mobile view -->
+                                    <div class="text-center d-block d-md-none">
+                                        <a href="https://explorecamps.onrender.com"><img class="img-fluid" src="https://images.unsplash.com/photo-1510312305653-8ed496efae75?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                                alt="..." /></a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <!-- Project Card 3-->
+                            <div class="card overflow-visible shadow rounded-4 border-0 mb-5">
+                                <div class="card-body p-0">
+                                    <div class="d-flex align-items-center">
+                                        <div class="p-4">
+                                            <h4 class="fw-bolder text-container">Uniview (SWEN614 Group Project)</h4>
+                                            <ul class="table-responsive-sm text-container mb-2">
+                                                <li>Uniview gives you a summary of google maps reviews for a particular university that you are
+                                                    interested in.</li>
+                                                <li>Utilizes AWS Lambda to fetch and filter 1,500 reviews from the google maps profile of 100
+                                                    different universities.</li>
+                                                <li>Performs sentiment analysis on each review using AWS Comprehend and uses AWS Personalize to
+                                                    recommend 5 similar universities for each university.</li>
+                                                <li>Implements TF-IDF NLP algorithm to extract 10 most common words from positive and negative
+                                                    reviews.</li>
+                                                <li>The entire project was built on Terraform. Other services used: EC2, Amplify, S3, Cloudwatch,
+                                                    DynamoDB.</li>
+                                            </ul>
+                            
+                                            <p class="mb-3 text-container">github repo: <a
+                                                    href="https://github.com/ViditNaithani22/Uniview-terraform">https://github.com/ViditNaithani22/Uniview-terraform</a>
+                                            </p>
+                                            <p class="text-container">Website link: <a
+                                                    href="https://main.d1s8gvn9k7g54q.amplifyapp.com">https://main.d1s8gvn9k7g54q.amplifyapp.com</a>
+                                            </p>
+                                        </div>
+                                        <!-- pc view -->
+                                        <a href="https://main.d1s8gvn9k7g54q.amplifyapp.com"><img class="img-fluid d-none d-md-block"
+                                                src="assets/uniview.png" alt="..." /></a>
+                                    </div>
+                                    <!-- mobile view -->
+                                    <div class="text-center d-block d-md-none">
+                                        <a href="https://main.d1s8gvn9k7g54q.amplifyapp.com"><img class="img-fluid" src="assets/uniview.png"
+                                                alt="..." /></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            
+            
+                            <!-- Project Card 4-->
                             <div class="card overflow-visible shadow rounded-4 border-0 mb-5">
                                 <div class="card-body p-0">
                                     <div class="d-flex align-items-center">
