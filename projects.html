@@ -184,11 +184,53 @@
                                     </div>
                                 </div>
                             </div>
+                            
+
+
+                            <!-- Project Card 5-->
+                            <div class="card overflow-visible shadow rounded-4 border-0 mb-5">
+                                <div class="card-body p-0">
+                                    <div class="d-flex align-items-center">
+                                        <div class="p-4">
+                                            <h4 class="fw-bolder text-container">Outdated Comment Detection (Capstone Project)</h4>
+                                            <ul class="table-responsive-sm text-container mb-2">
+                                                <li>A tensorflow dual encoder model that is trained to detect outdated comments in Java code bases
+                                                </li>
+                                                <li>Trained a fasttext model to generate embeddings for all the code-comment change samples in our
+                                                    dataset.</li>
+                                                <li>In our dual encoder architecture, one encoder only takes java method embeddings, and the other
+                                                    only takes comment embeddings</li>
+                                                <li>First we train the two encoders to consider the cosine similarity between old_comment (comment
+                                                    in previous commit) and old_method (method in previous commit) as 1</li>
+                                                <li>Case 1: train the two encoders to consider the cosine similarity between old_comment and
+                                                    new_method (method in new commit) as 0</li>
+                                                <li>Case 2: train the two encoders to consider the cosine similarity between old_comment and
+                                                    new_method as the cosine similarity between old_comment and new_comment (comment in new commit)
+                                                </li>
+                                                <li>Results: Rank-error=0.3564, F1-Score=0.026, Recall=0.019, Precision=0.042</li>
+                                                <li>Imp. Libraries used: Tensorflow, Numpy, Pandas, FastText, Keras</li>
+                                            </ul>
+                            
+                                            <p class="mb-3 text-container">github repo: <a
+                                                    href="https://github.com/hil-se/OutDatedCommentDetection">https://github.com/hil-se/OutDatedCommentDetection</a>
+                                            </p>
+                            
+                                        </div>
+                                        <!-- pc view -->
+                                        <a href="https://github.com/hil-se/OutDatedCommentDetection"><img class="img-fluid d-none d-md-block"
+                                                src="assets/uniview.png" alt="..." /></a>
+                                    </div>
+                                    <!-- mobile view -->
+                                    <div class="text-center d-block d-md-none">
+                                        <a href="https://github.com/hil-se/OutDatedCommentDetection"><img class="img-fluid" src="assets/uniview.png"
+                                                alt="..." /></a>
+                                    </div>
+                                </div>
+                            </div>
 
 
 
-
-                            <!-- Project Card 3-->
+                            <!-- Project Card 4-->
                             <div class="card overflow-visible shadow rounded-4 border-0 mb-5">
                                 <div class="card-body p-0">
                                     <div class="d-flex align-items-center">
@@ -224,8 +266,10 @@
                                 </div>
                             </div>
                             
+
+
             
-                            <!-- Project Card 5-->
+                            <!-- Project Card 6-->
                             <div class="card overflow-visible shadow rounded-4 border-0 mb-5">
                                 <div class="card-body p-0">
                                     <div class="d-flex align-items-center">
